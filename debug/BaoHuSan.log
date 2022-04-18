@@ -1,0 +1,59 @@
+﻿  Reading Qt configuration (E:/CEXTENDAPP/Qt5.15/5.15.2/msvc2019_64/bin/qmake)
+  Generate moc_predefs.h
+  Rcc'ing assets.qrc...
+  Rcc'ing images.qrc...
+  Rcc'ing qml.qrc...
+  Moc'ing baidufacedtec.h...
+  Moc'ing baiduvoice.h...
+  Moc'ing todolist.h...
+  Moc'ing todomodel.h...
+  Moc'ing tulinrobot.h...
+  baidufacedtec.cpp
+  baiduvoice.cpp
+  main.cpp
+  todolist.cpp
+  todomodel.cpp
+  tulinrobot.cpp
+D:\BaoHuSan\todolist.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BaoHuSan\baidufacedtec.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BaoHuSan\baiduvoice.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BaoHuSan\baiduvoice.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\todolist.cpp(5,28): error C2001: 常量中有换行符
+D:\BaoHuSan\todolist.cpp(6,1): error C2001: 常量中有换行符
+D:\BaoHuSan\todolist.cpp(7,1): error C2001: 常量中有换行符
+D:\BaoHuSan\todolist.cpp(5,1): fatal error C1057: 宏扩展中遇到意外的文件结束
+D:\BaoHuSan\baiduvoice.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+D:\BaoHuSan\baidufacedtec.cpp(186,109): error C2017: 非法的转义序列
+D:\BaoHuSan\baidufacedtec.cpp(186,111): error C2001: 常量中有换行符
+D:\BaoHuSan\baidufacedtec.cpp(186,111): error C3688: 文本后缀“age”无效；未找到文文本运算符或文本运算符模板“operator """"age”
+D:\BaoHuSan\baidufacedtec.cpp(186,110): error C2146: 语法错误: 缺少“)”(在标识符“n”的前面)
+D:\BaoHuSan\baidufacedtec.cpp(186,110): error C2146: 语法错误: 缺少“;”(在标识符“n”的前面)
+D:\BaoHuSan\baidufacedtec.cpp(186,110): error C2065: “n”: 未声明的标识符
+D:\BaoHuSan\baidufacedtec.cpp(186,111): error C2143: 语法错误: 缺少“;”(在“字符串”的前面)
+D:\BaoHuSan\baidufacedtec.cpp(187,29): error C2146: 语法错误: 缺少“;”(在标识符“QJsonObject”的前面)
+D:\BaoHuSan\baidufacedtec.cpp(379,17): error C2001: 常量中有换行符
+D:\BaoHuSan\baidufacedtec.cpp(380,5): error C2146: 语法错误: 缺少“;”(在标识符“QFile”的前面)
+D:\BaoHuSan\baiduvoice.h(84,29): error C2001: 常量中有换行符 (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(86,5): error C2146: 语法错误: 缺少“;”(在标识符“QNetworkAccessManager”的前面) (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(86,5): error C2061: 语法错误: 标识符“QNetworkAccessManager” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(90,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(91,29): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(92,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(94,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(96,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(97,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(98,22): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(99,24): error C2059: 语法错误:“成员初始值设定项” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(100,1): error C2059: 语法错误:“<L_GRAMMAR_end_class>” (编译源文件 baiduvoice.cpp)
+D:\BaoHuSan\baiduvoice.h(84,29): error C2001: 常量中有换行符 (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(86,5): error C2146: 语法错误: 缺少“;”(在标识符“QNetworkAccessManager”的前面) (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(86,5): error C2061: 语法错误: 标识符“QNetworkAccessManager” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(90,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(91,29): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(92,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(94,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(96,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(97,26): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(98,22): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(99,24): error C2059: 语法错误:“成员初始值设定项” (编译源文件 main.cpp)
+D:\BaoHuSan\baiduvoice.h(100,1): error C2059: 语法错误:“<L_GRAMMAR_end_class>” (编译源文件 main.cpp)

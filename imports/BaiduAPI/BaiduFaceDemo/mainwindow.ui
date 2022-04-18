@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Source Code Pro</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_6">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideNone</enum>
+      </property>
+      <property name="documentMode">
+       <bool>false</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>false</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>人脸检测</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0" colspan="2">
+         <widget class="QLineEdit" name="detect_path"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="lab_detect">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>400</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>400</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>image</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QTextBrowser" name="tBdetect"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>人脸识别</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0" colspan="2">
+         <widget class="QLineEdit" name="serch_path"/>
+        </item>
+        <item row="1" column="0" rowspan="4">
+         <widget class="QLabel" name="lab_serch">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>400</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>400</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>image</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QTextBrowser" name="tBserch"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="group_id">
+          <property name="placeholderText">
+           <string>group_id</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="user_id">
+          <property name="placeholderText">
+           <string>user_id</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="face_register">
+          <property name="text">
+           <string>人脸注册</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>人脸对比</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QRadioButton" name="radioButton1">
+          <property name="maximumSize">
+           <size>
+            <width>57</width>
+            <height>21</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>图片1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" colspan="2">
+         <widget class="QLineEdit" name="match1_path"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QRadioButton" name="radioButton2">
+          <property name="maximumSize">
+           <size>
+            <width>57</width>
+            <height>21</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>图片2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" colspan="2">
+         <widget class="QLineEdit" name="match2_path"/>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QLabel" name="lab_match1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>240</width>
+            <height>320</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>240</width>
+            <height>320</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>image</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="lab_match2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>240</width>
+            <height>320</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>240</width>
+            <height>320</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>image</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="3">
+         <widget class="QTextBrowser" name="tBmatch">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>31</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="open_img"/>
+   <addaction name="act_baidu"/>
+   <addaction name="actScreenshot"/>
+  </widget>
+  <action name="open_img">
+   <property name="icon">
+    <iconset resource="files.qrc">
+     <normaloff>:/icons/White/066-open-file.png</normaloff>:/icons/White/066-open-file.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开图片</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="act_baidu">
+   <property name="icon">
+    <iconset resource="files.qrc">
+     <normaloff>:/icons/White/007-globe.png</normaloff>:/icons/White/007-globe.png</iconset>
+   </property>
+   <property name="text">
+    <string>面向百度</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actScreenshot">
+   <property name="icon">
+    <iconset resource="qdarkstyle/style.qrc">
+     <normaloff>:/qss_icons/rc/checkbox_unchecked_focus.png</normaloff>:/qss_icons/rc/checkbox_unchecked_focus.png</iconset>
+   </property>
+   <property name="text">
+    <string>截图</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="qdarkstyle/style.qrc"/>
+  <include location="files.qrc"/>
+ </resources>
+ <connections/>
+</ui>

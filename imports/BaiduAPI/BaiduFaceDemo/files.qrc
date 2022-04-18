@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/White/007-globe.png</file>
+        <file>icons/White/066-open-file.png</file>
+    </qresource>
+</RCC>
